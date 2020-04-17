@@ -1,0 +1,106 @@
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+--- Starting trial: run-0
+{'optimizer': 'RMSProp', 'LSTMNeurons': 128, 'dropout': 0.1}
+Epoch 1/5
+375/375 [==============================] - 183s 487ms/step - loss: 0.9477 - accuracy: 0.4797 - val_loss: 0.0000e+00 - val_accuracy: 0.0000e+00
+Epoch 2/5
+375/375 [==============================] - 178s 476ms/step - loss: 0.5291 - accuracy: 0.6110 - val_loss: 0.3791 - val_accuracy: 0.7239
+Epoch 3/5
+375/375 [==============================] - 179s 476ms/step - loss: 0.3896 - accuracy: 0.6568 - val_loss: 0.3987 - val_accuracy: 0.6808
+Epoch 4/5
+375/375 [==============================] - 178s 476ms/step - loss: 0.3345 - accuracy: 0.6723 - val_loss: 0.4150 - val_accuracy: 0.6936
+Epoch 5/5
+375/375 [==============================] - 180s 479ms/step - loss: 0.2946 - accuracy: 0.6863 - val_loss: 0.3562 - val_accuracy: 0.6975
+114/114 [==============================] - 12s 103ms/step - loss: 0.2211 - accuracy: 0.7427
+--- Starting trial: run-1
+{'optimizer': 'RMSProp', 'LSTMNeurons': 128, 'dropout': 0.2}
+Epoch 1/5
+375/375 [==============================] - 185s 494ms/step - loss: 0.9662 - accuracy: 0.4437 - val_loss: 0.0000e+00 - val_accuracy: 0.0000e+00
+Epoch 2/5
+375/375 [==============================] - 180s 481ms/step - loss: 0.5700 - accuracy: 0.6129 - val_loss: 0.3950 - val_accuracy: 0.6749
+Epoch 3/5
+375/375 [==============================] - 181s 483ms/step - loss: 0.3831 - accuracy: 0.6669 - val_loss: 0.4041 - val_accuracy: 0.6869
+Epoch 4/5
+375/375 [==============================] - 182s 485ms/step - loss: 0.3346 - accuracy: 0.6754 - val_loss: 0.2759 - val_accuracy: 0.7006
+Epoch 5/5
+375/375 [==============================] - 185s 493ms/step - loss: 0.2878 - accuracy: 0.6868 - val_loss: 0.4185 - val_accuracy: 0.6790
+114/114 [==============================] - 12s 104ms/step - loss: 0.2286 - accuracy: 0.7434
+--- Starting trial: run-2
+{'optimizer': 'RMSProp', 'LSTMNeurons': 256, 'dropout': 0.1}
+Epoch 1/5
+375/375 [==============================] - 383s 1s/step - loss: 0.9620 - accuracy: 0.4534 - val_loss: 0.0000e+00 - val_accuracy: 0.0000e+00
+Epoch 2/5
+375/375 [==============================] - 378s 1s/step - loss: 0.5465 - accuracy: 0.6115 - val_loss: 0.4087 - val_accuracy: 0.7048
+Epoch 3/5
+375/375 [==============================] - 379s 1s/step - loss: 0.3897 - accuracy: 0.6579 - val_loss: 0.3087 - val_accuracy: 0.6992
+Epoch 4/5
+375/375 [==============================] - 377s 1s/step - loss: 0.3311 - accuracy: 0.6761 - val_loss: 0.4035 - val_accuracy: 0.6998
+Epoch 5/5
+375/375 [==============================] - 381s 1s/step - loss: 0.2801 - accuracy: 0.6983 - val_loss: 0.4937 - val_accuracy: 0.6855
+114/114 [==============================] - 29s 258ms/step - loss: 0.2193 - accuracy: 0.7809
+--- Starting trial: run-3
+{'optimizer': 'RMSProp', 'LSTMNeurons': 256, 'dropout': 0.2}
+Epoch 1/5
+375/375 [==============================] - 386s 1s/step - loss: 1.0190 - accuracy: 0.4543 - val_loss: 0.0000e+00 - val_accuracy: 0.0000e+00
+Epoch 2/5
+375/375 [==============================] - 381s 1s/step - loss: 0.5634 - accuracy: 0.5954 - val_loss: 0.5494 - val_accuracy: 0.6719
+Epoch 3/5
+375/375 [==============================] - 380s 1s/step - loss: 0.4010 - accuracy: 0.6584 - val_loss: 0.3746 - val_accuracy: 0.6840
+Epoch 4/5
+375/375 [==============================] - 381s 1s/step - loss: 0.3385 - accuracy: 0.6798 - val_loss: 0.3676 - val_accuracy: 0.6760
+Epoch 5/5
+375/375 [==============================] - 379s 1s/step - loss: 0.2727 - accuracy: 0.6981 - val_loss: 0.3410 - val_accuracy: 0.7033
+114/114 [==============================] - 29s 259ms/step - loss: 0.2579 - accuracy: 0.7583
+--- Starting trial: run-4
+{'optimizer': 'adam', 'LSTMNeurons': 128, 'dropout': 0.1}
+Epoch 1/5
+375/375 [==============================] - 184s 490ms/step - loss: 1.0144 - accuracy: 0.4235 - val_loss: 0.0000e+00 - val_accuracy: 0.0000e+00
+Epoch 2/5
+375/375 [==============================] - 179s 477ms/step - loss: 0.5883 - accuracy: 0.5936 - val_loss: 0.4075 - val_accuracy: 0.6756
+Epoch 3/5
+375/375 [==============================] - 179s 477ms/step - loss: 0.5056 - accuracy: 0.6211 - val_loss: 0.3632 - val_accuracy: 0.7335
+Epoch 4/5
+375/375 [==============================] - 180s 481ms/step - loss: 0.3653 - accuracy: 0.6701 - val_loss: 0.4197 - val_accuracy: 0.6546
+Epoch 5/5
+375/375 [==============================] - 180s 480ms/step - loss: 0.3951 - accuracy: 0.6543 - val_loss: 0.5308 - val_accuracy: 0.6791
+114/114 [==============================] - 12s 103ms/step - loss: 0.4331 - accuracy: 0.7378
+--- Starting trial: run-5
+{'optimizer': 'adam', 'LSTMNeurons': 128, 'dropout': 0.2}
+Epoch 1/5
+375/375 [==============================] - 185s 494ms/step - loss: 0.9928 - accuracy: 0.4142 - val_loss: 0.0000e+00 - val_accuracy: 0.0000e+00
+Epoch 2/5
+375/375 [==============================] - 181s 482ms/step - loss: 0.6655 - accuracy: 0.5759 - val_loss: 0.4614 - val_accuracy: 0.6935
+Epoch 3/5
+375/375 [==============================] - 180s 480ms/step - loss: 0.4604 - accuracy: 0.6449 - val_loss: 0.3581 - val_accuracy: 0.7468
+Epoch 4/5
+375/375 [==============================] - 182s 485ms/step - loss: 0.3919 - accuracy: 0.6681 - val_loss: 0.3674 - val_accuracy: 0.6981
+Epoch 5/5
+375/375 [==============================] - 181s 483ms/step - loss: 0.3404 - accuracy: 0.6776 - val_loss: 0.3445 - val_accuracy: 0.6935
+114/114 [==============================] - 12s 103ms/step - loss: 0.2560 - accuracy: 0.7444
+--- Starting trial: run-6
+{'optimizer': 'adam', 'LSTMNeurons': 256, 'dropout': 0.1}
+Epoch 1/5
+375/375 [==============================] - 383s 1s/step - loss: 1.1398 - accuracy: 0.3802 - val_loss: 0.0000e+00 - val_accuracy: 0.0000e+00
+Epoch 2/5
+375/375 [==============================] - 377s 1s/step - loss: 0.7137 - accuracy: 0.5344 - val_loss: 0.4661 - val_accuracy: 0.6652
+Epoch 3/5
+375/375 [==============================] - 377s 1s/step - loss: 0.5342 - accuracy: 0.6038 - val_loss: 0.4841 - val_accuracy: 0.6464
+Epoch 4/5
+375/375 [==============================] - 379s 1s/step - loss: 0.4503 - accuracy: 0.6182 - val_loss: 0.4221 - val_accuracy: 0.6344
+Epoch 5/5
+375/375 [==============================] - 378s 1s/step - loss: 0.3622 - accuracy: 0.6523 - val_loss: 0.2926 - val_accuracy: 0.7115
+114/114 [==============================] - 29s 258ms/step - loss: 0.2495 - accuracy: 0.7512
+--- Starting trial: run-7
+{'optimizer': 'adam', 'LSTMNeurons': 256, 'dropout': 0.2}
+Epoch 1/5
+375/375 [==============================] - 389s 1s/step - loss: 1.1038 - accuracy: 0.4050 - val_loss: 0.0000e+00 - val_accuracy: 0.0000e+00
+Epoch 2/5
+375/375 [==============================] - 381s 1s/step - loss: 0.8001 - accuracy: 0.4870 - val_loss: 1.0232 - val_accuracy: 0.4040
+Epoch 3/5
+375/375 [==============================] - 382s 1s/step - loss: 1.1009 - accuracy: 0.3739 - val_loss: 0.8935 - val_accuracy: 0.4659
+Epoch 4/5
+375/375 [==============================] - 381s 1s/step - loss: 0.8890 - accuracy: 0.4475 - val_loss: 0.8090 - val_accuracy: 0.5004
+Epoch 5/5
+375/375 [==============================] - 381s 1s/step - loss: 0.6686 - accuracy: 0.5473 - val_loss: 0.6682 - val_accuracy: 0.5870
+114/114 [==============================] - 30s 259ms/step - loss: 0.7484 - accuracy: 0.5801
