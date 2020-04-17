@@ -2,7 +2,7 @@
 	Human Activity Recognition
 </h1>
 
-**_Updates done so far:_**
+**_Paper_** : [Paper_Human Activity Recognition](https://drive.google.com/open?id=16rAiqm2Eby1k92UdBs8iEL_n9HIKFV-p)
 
 
 1) Data Preprocessing
